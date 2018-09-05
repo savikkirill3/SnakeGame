@@ -1,0 +1,81 @@
+
+@font-face {
+    font-family: 'sans-serif';
+    font-style: normal;
+    font-weight: 400;
+}
+body{
+    margin: 0;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+#root{
+    display: flex;
+    width: 900px;
+    height: 600px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 4%;
+    cursor: none;
+}
+.cell{
+    border: 1px solid green;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    padding: 13px;
+    margin: 1px;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+.apple{
+    background-color: red;
+}
+.snake{
+    background-color: green;
+}
+.border{
+    background-color: blue;
+}
+.modal-dialog{
+    display: flex;
+    width: 500px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+.modal-dialog div{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.modal-dialog button{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial Black';
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.modal-dialog button:hover{
+    color: black;
+    background-color: white;
+}
